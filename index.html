@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Greedy Hunter</title>
+    
+</head>
+<body>
+    <div class="top">
+        <div class="cont">
+            <div>
+                <span>Moves:</span>
+                <span class="moves"></span>
+            </div>
+            <div>
+                <span>Level:</span>
+                <span class="level">0</span>
+            </div>
+            <div>
+                <span>Steps:</span>
+                <span class="steps"></span>
+            </div>
+            <div >
+                <span>Timer:</span>
+                <span class="timer">60s</span>
+            </div>
+        </div>
+    </div>
+    <h1 style="text-align: center;" class="heading">Choose play Grid Size</h1>
+    <div class="btn-group">
+        
+        <button id="start">Start</button>
+        <select id="grid">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <!-- <option value="11">11</option>
+            <option value="12">12</option> -->
+        </select>
+        <button id="reset">Reset</button>
+    </div>
+    <center id="center"> </center>
+    
+    <div class="group-modal">
+        <div class="game-over">
+            <div class="modal">
+                <h1 class="title">Game Over</h1>
+                <p class="msg"></p>
+                <button class="close">Close</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="./js/index.js"></script>
+</body>
+</html>

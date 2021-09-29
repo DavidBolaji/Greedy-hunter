@@ -1,0 +1,173 @@
+
+html {
+    overflow-x: hidden;
+    scale: 1;
+}
+
+table {
+    scale: 0.8;
+    margin-top: -40px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('../images/play_bg.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.cont {
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    background-color: #000;
+    color: #fafafa;
+    align-items:center;
+    justify-content: space-between;
+    /* padding: 0.25rem 1rem; */
+    font-style: italic;
+    position: fixed;
+    overflow-x: hidden;
+    box-shadow: 6px 10px 10px 2px rgba(0,0,0,0.7);
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    color: brown;
+    position:relative;
+}
+
+.img {
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.img.hunter {
+    position: relative;
+    z-index: 10;
+}
+
+.img.food {
+    position: absolute;
+    z-index: 5;
+    right:0;
+    top: 0;
+    transform: translate(0%,30%)
+}
+
+#center {
+    margin-top: 2rem;
+    display: flex;
+    min-height: 50vh;
+    width: 100%;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.btn-group button,
+.game-over .modal button {
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: #000;
+    color: #fafafa;
+    border: 1px solid #000;
+}
+
+.btn-group button:hover {
+    color: #000;
+    background-color: #fafafa;
+}
+
+#grid {
+    padding: 0.5rem 0.25rem;
+}
+
+/* .game-over.active {
+    visibility: visible;
+} */
+
+.game-over {
+    /* visibility: hidden; */
+    background-image: url('../images/play_bg.png');
+    min-width: 15%;
+    width:300px;
+    text-align: center;
+    padding: 0.5em 0.25em;
+    position: relative;
+    z-index: 10;
+    margin-inline:  auto;
+    /* margin-top: -300px; */
+    border-radius: 20px;
+    box-shadow: 6px 10px 10px 2px rgba(0,0,0,0.7);
+}
+
+.group-modal.active {
+    visibility: visible;
+}
+
+.group-modal {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: translateY(0%);
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-over .modal h1 {
+    font-size: 2.5rem;
+    color: red;
+    font-style:italic;
+}
+
+.game-over .modal P {
+    color: red;
+    font-style:italic;
+}
+
+.game-over .modal button {
+    border-radius: 50px;
+    margin-bottom: 2em
+}
+
+
+
+.heading {
+    text-transform: uppercase;
+    font-style: italic;
+    color: brown;
+    margin-top: 7vh;
+}
