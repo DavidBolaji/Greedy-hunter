@@ -61,7 +61,7 @@ const nextLevel = () => {
     table.remove();
     Number(level.textContent) + 1; 
     removeModal();
-    if(Number(localStorage.getItem('select')) > 10) {
+    if(Number(localStorage.getItem('select')) >= 10) {
         gameOver.classList.add('active');
         let next = document.createElement('button')
         next.textContent = "Reset"

@@ -6,7 +6,9 @@ html {
 
 table {
     scale: 0.8;
-    margin-top: -70px;
+    margin-top: -90px;
+    position:relatve;
+    z-index: 8;
 }
 
 body {
