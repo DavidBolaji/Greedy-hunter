@@ -60,7 +60,7 @@ body {
 
 .img.hunter {
     position: relative;
-    z-index: 10;
+    z-index: 9;
 }
 
 .img.food {
