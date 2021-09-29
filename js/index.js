@@ -39,7 +39,7 @@ close.addEventListener('click', () => {
 
 // Reset game button
 reset.addEventListener('click', () => {
-    window.location.replace('file:///C:/Users/David/Desktop/Greed/index.html')
+    window.location.replace('https://davidbolaji.github.io/greedy-hunter/')
 })
 
 // Remove modal
@@ -50,7 +50,7 @@ const removeModal = () => {
 
 
 const restart = () => {
-    window.location.replace('file:///C:/Users/David/Desktop/Greed/index.html')
+    window.location.replace('https://davidbolaji.github.io/greedy-hunter/')
 }
 
 
