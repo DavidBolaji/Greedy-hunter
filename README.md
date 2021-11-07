@@ -1,4 +1,4 @@
-# greedy-hunter
+# Greedy-hunter
 ## Instructions
 
 - Board in rendered starting from number of squares given by the user (Min: 3 to max: 12).
